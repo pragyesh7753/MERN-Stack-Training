@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMapMarkerAlt, faPhone, faUser, faBook, faAward, faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 
 const AboutPage = () => {
   return (
@@ -26,13 +26,22 @@ const AboutPage = () => {
 
           <div className="mt-6 flex justify-center space-x-4">
             <a href="https://github.com/pragyesh7753" className="text-gray-600 hover:text-indigo-600 transition-colors duration-300" target='_blank'>
-              <FontAwesomeIcon icon={faGithub} size="lg" />
+              <lord-icon
+                src="https://cdn.lordicon.com/ioihllwu.json"
+                trigger="hover">
+              </lord-icon>
             </a>
             <a href="https://www.linkedin.com/in/pragyesh-kumar-seth-29572b253/" className="text-gray-600 hover:text-indigo-600 transition-colors duration-300" target='_blank'>
-              <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+              <lord-icon
+                src="https://cdn.lordicon.com/xerxcacw.json"
+                trigger="hover">
+              </lord-icon>
             </a>
-            <a href="#" className="text-gray-600 hover:text-indigo-600 transition-colors duration-300">
-              <FontAwesomeIcon icon={faTwitter} size="lg" />
+            <a href="https://x.com/SethPragyesh" className="text-gray-600 hover:text-indigo-600 transition-colors duration-300" target='_blank'>
+              <lord-icon
+                src="https://cdn.lordicon.com/qrsdbrog.json"
+                trigger="hover">
+              </lord-icon>
             </a>
           </div>
 
