@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { MapPin, Phone, Clock } from 'lucide-react';
 import ScrollAnimation from './ScrollAnimation';
 
